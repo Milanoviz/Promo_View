@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd4061bdd7c142b2b33f7cbba5bd521e, type: 3}
+  m_Name: PromoContentConfig
+  m_EditorClassIdentifier: 
+  rewardIcons:
+  - {fileID: 21300000, guid: 624e0b326c5f8fa4e84d98223ae2e165, type: 3}
+  - {fileID: 21300000, guid: b85a726f648808949b038ab32fda92f5, type: 3}
+  - {fileID: 21300000, guid: 8542fa350ce5cd048acec7e0d005c13c, type: 3}
+  - {fileID: 21300000, guid: fe4221b4225a1374ea055db250ddf794, type: 3}
+  - {fileID: 21300000, guid: 806a30ab725a3064d88865068ac88436, type: 3}
+  - {fileID: 21300000, guid: 4fdb042ae0eafec49b38018e9f2f879e, type: 3}
+  - {fileID: 21300000, guid: 89c24639d55371f4698762deb10f9325, type: 3}
+  - {fileID: 21300000, guid: 2bcb85bda0c93b8458c6645f5f374b7f, type: 3}
+  - {fileID: 21300000, guid: 5be5faba96af13d4191a6652bb3e0a55, type: 3}
+  - {fileID: 21300000, guid: 902507cb251b00a4d857054feb8b7ce8, type: 3}
+  rewardIconsFolder: {fileID: 102900000, guid: fb559f6ad59a44f4badf5e5a247d3d39, type: 3}
+  slotBackgrounds:
+  - {fileID: 21300000, guid: f34cd001841e7fb478eeef5bdd8e2a1d, type: 3}
+  - {fileID: 21300000, guid: 54eacff0100aa6e41bb852cf6af60702, type: 3}
+  - {fileID: 21300000, guid: b26c30ef7d260b34996f74567bc0e09b, type: 3}
+  - {fileID: 21300000, guid: 98f9e13eb8c2fe043a653773cd87da88, type: 3}
+  slotBackgroundsFolder: {fileID: 102900000, guid: 84057634217eb2146b6fd8787623400a, type: 3}
+  blockSortOrder:
+  - sortType: 0
+    sortPriority: 0
+  - sortType: 2
+    sortPriority: 1
+  - sortType: 1
+    sortPriority: 2
+  slotSortOrder:
+  - sortType: 2
+    sortPriority: 0
+  - sortType: 1
+    sortPriority: 1
+  - sortType: 0
+    sortPriority: 2
