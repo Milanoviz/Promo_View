@@ -47,16 +47,6 @@ namespace RedPanda.Project.Services.UI.Promo.Providers
             return new PromoSlotViewDataModel(title, rewardIcon, backgroundIcon, price);
         }
 
-        public Dictionary<PromoType, int> GetBlockSortOrder()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Dictionary<PromoRarity, int> GetSlotSortOrder()
-        {
-            throw new System.NotImplementedException();
-        }
-
         private Sprite GetRewardIcon(string iconKey)
         {
             if (_rewardIconStorage.ContainsKey(iconKey))
